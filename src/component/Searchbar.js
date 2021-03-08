@@ -20,7 +20,7 @@ import React from 'react'
            <form className="ui form" onSubmit={this.onFormSubmit}>
 
              <div className="field">
-                 <label>Video Search</label>
+                 <label>Videos Search</label>
                  <input id="outlined-basic" placeholder="Search the videos" type="text" value={this.state.video} onChange={ e => this.setState({video:e.target.value})} />
 
              </div>
